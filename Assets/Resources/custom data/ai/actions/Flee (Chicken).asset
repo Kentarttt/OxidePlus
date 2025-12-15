@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59432ec33272a62f92c1d72e739489b, type: 3}
+  m_Name: Flee (Chicken)
+  m_EditorClassIdentifier:
+  m_MinFleeDistance: 8
+  m_ScreamAudio:
+    m_Sounds:
+    - {fileID: 8300000, guid: 53ac40bd2ab10024890b32775d61b6a3, type: 3}
+    - {fileID: 8300000, guid: f9fe4c42f9395554d9ed51ef74a3963e, type: 3}
+    - {fileID: 8300000, guid: bb1db3595d42bfc449b460c79d6242e9, type: 3}
+    - {fileID: 8300000, guid: af357d259f41df44c9e08a65f529c1cd, type: 3}
+    - {fileID: 8300000, guid: 06cfb381f31a3f548a31405a9de25e63, type: 3}
+    - {fileID: 8300000, guid: 3622c0fdaf436624486b7d158807a233, type: 3}
+    m_VolumeRange: {x: 0.5, y: 0.75}
+    m_PitchRange: {x: 0.9, y: 1.1}
+  m_ScreamInterval: 0.65

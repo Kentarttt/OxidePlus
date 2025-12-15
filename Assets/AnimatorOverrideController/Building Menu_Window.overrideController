@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Building Menu_Window
+  m_Controller: {fileID: 9100000, guid: 2e3e76db91c040a43a513196b8096750, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 23587d57bfaf28d49b8ea36932da2d36, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8773e1458dfea9d43bed7073c8ee44fa, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9b7f2bd3b4dc91644851fc15917f36fd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e07c139c6a720754994c40bf2e34599e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f688a980428038c49b1a641105ba802a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fddb0ac0be4dd354c96dc903fd438d74, type: 2}

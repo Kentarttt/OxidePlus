@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52f7ff8c6ca8130ffd1a007466da11a, type: 3}
+  m_Name: Surface Database
+  m_EditorClassIdentifier:
+  m_DefaultSurface:
+    m_Name: Default
+    m_Textures: []
+    m_FootstepSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: ce13e3704bf9ca5409271c29e9e86c84, type: 3}
+      - {fileID: 8300000, guid: b8524ded90b81404ea7a85e98f24e524, type: 3}
+      - {fileID: 8300000, guid: b6c23c96bb96533468aba0a94c7a6c82, type: 3}
+      - {fileID: 8300000, guid: 29302e3839455304ca118c1595bb71c5, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_JumpSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_LandSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_BulletImpactSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: f31456c802b476244a4aee706b1ef534, type: 3}
+      - {fileID: 8300000, guid: b566b14aebd47844ea64279164480013, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_BulletDecals:
+    - {fileID: 1316399101521729, guid: 29b09c1fab4448a43af9b069022ec696, type: 2}
+    m_BulletImpactFX:
+    - {fileID: 1804962832628786, guid: 6f8a83216b6f3dd40a0c5f9319180358, type: 2}
+    m_ChopSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: b8ee2db78e445d44b8aaaeafbdad3c68, type: 3}
+      - {fileID: 8300000, guid: 6af6ad7e95baa614a9edbb3a6a540048, type: 3}
+      - {fileID: 8300000, guid: 1d9ef6b40f0bae245b379bd11c0754d3, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_HitSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: b8ee2db78e445d44b8aaaeafbdad3c68, type: 3}
+      - {fileID: 8300000, guid: 6af6ad7e95baa614a9edbb3a6a540048, type: 3}
+      - {fileID: 8300000, guid: 1d9ef6b40f0bae245b379bd11c0754d3, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_ChopFX:
+    - {fileID: 1447962869614185, guid: a3c82a6c5f22a434ab476282fcf863ba, type: 2}
+    m_HitFX:
+    - {fileID: 1447962869614185, guid: a3c82a6c5f22a434ab476282fcf863ba, type: 2}
+    m_IsPenetrable: 1
+    m_SpearPenetrationSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: e98e5448a4e80e549b6d13e95e169ac6, type: 3}
+      m_VolumeRange: {x: 0.3, y: 0.5}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_ArrowPenetrationSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: 8f47c4a758c5e5840acbc14df5353f0c, type: 3}
+      m_VolumeRange: {x: 0.3, y: 0.5}
+      m_PitchRange: {x: 0.9, y: 1.1}
+  m_Surfaces:
+  - m_Name: Grass
+    m_Textures:
+    - {fileID: 0}
+    m_FootstepSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: f2c4de310c9eafd41a3f0f6fc8b02515, type: 3}
+      - {fileID: 8300000, guid: 574b9b12950c9bf4dac0b42936283889, type: 3}
+      - {fileID: 8300000, guid: 1081dd1456e154b40a39ae8698427d67, type: 3}
+      - {fileID: 8300000, guid: 5eecf5702835cc24eb2cd9a353302810, type: 3}
+      m_VolumeRange: {x: 0.3, y: 0.5}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_JumpSounds:
+      m_Sounds:
+      - {fileID: 0}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_LandSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: f2c4de310c9eafd41a3f0f6fc8b02515, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_BulletImpactSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: f31456c802b476244a4aee706b1ef534, type: 3}
+      - {fileID: 8300000, guid: b566b14aebd47844ea64279164480013, type: 3}
+      m_VolumeRange: {x: 0.3, y: 0.5}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_BulletDecals:
+    - {fileID: 1316399101521729, guid: 29b09c1fab4448a43af9b069022ec696, type: 2}
+    m_BulletImpactFX:
+    - {fileID: 1244201598844005, guid: c8c7f1f2f33543c48b18a9969ee65f17, type: 2}
+    m_ChopSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_HitSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_ChopFX: []
+    m_HitFX: []
+    m_IsPenetrable: 1
+    m_SpearPenetrationSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: de2c12e17f21316468ca11cb7358d66b, type: 3}
+      m_VolumeRange: {x: 0.2, y: 0.3}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_ArrowPenetrationSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: 7c99098709b9cdc49aaf3a8b7da011e9, type: 3}
+      m_VolumeRange: {x: 0.2, y: 0.3}
+      m_PitchRange: {x: 0.9, y: 1.1}
+  - m_Name: Stone
+    m_Textures:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_FootstepSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: 17644135b4d73d84981098931f3c5c97, type: 3}
+      - {fileID: 8300000, guid: e65f074d56019e1488b450484f5d3f1c, type: 3}
+      - {fileID: 8300000, guid: 08b5c57a97c00994ba061c3d230d1d3a, type: 3}
+      - {fileID: 8300000, guid: 7ad715ee0cf5da04f8715601314d5048, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_JumpSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_LandSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: 17644135b4d73d84981098931f3c5c97, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_BulletImpactSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: 6fc822779993b14418593f4688ceac1d, type: 3}
+      - {fileID: 8300000, guid: fa5d30d08165e394d9c1b98f58cdd375, type: 3}
+      m_VolumeRange: {x: 0.3, y: 0.5}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_BulletDecals:
+    - {fileID: 1316399101521729, guid: 29b09c1fab4448a43af9b069022ec696, type: 2}
+    m_BulletImpactFX:
+    - {fileID: 1804962832628786, guid: 6f8a83216b6f3dd40a0c5f9319180358, type: 2}
+    m_ChopSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: b8ee2db78e445d44b8aaaeafbdad3c68, type: 3}
+      - {fileID: 8300000, guid: 6af6ad7e95baa614a9edbb3a6a540048, type: 3}
+      - {fileID: 8300000, guid: 1d9ef6b40f0bae245b379bd11c0754d3, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_HitSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: b8ee2db78e445d44b8aaaeafbdad3c68, type: 3}
+      - {fileID: 8300000, guid: 6af6ad7e95baa614a9edbb3a6a540048, type: 3}
+      - {fileID: 8300000, guid: 1d9ef6b40f0bae245b379bd11c0754d3, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_ChopFX:
+    - {fileID: 1447962869614185, guid: a3c82a6c5f22a434ab476282fcf863ba, type: 2}
+    m_HitFX:
+    - {fileID: 1447962869614185, guid: a3c82a6c5f22a434ab476282fcf863ba, type: 2}
+    m_IsPenetrable: 0
+    m_SpearPenetrationSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_ArrowPenetrationSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+  - m_Name: Flesh
+    m_Textures:
+    - {fileID: 2800000, guid: bcbfbc76f712de84192211c9ee8877fa, type: 3}
+    - {fileID: 2800000, guid: ef801d0efd6f8e84fb469379aa46032c, type: 3}
+    - {fileID: 2800000, guid: 51b2eb7d44866114a887068a6f84629b, type: 3}
+    - {fileID: 2800000, guid: 927bd02c2adbd7d4693a78664a043409, type: 3}
+    m_FootstepSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_JumpSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_LandSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_BulletImpactSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: 8b8d8fd99e0c8ef49aa015438dd8a587, type: 3}
+      - {fileID: 8300000, guid: 82b783b5961eba4478c259c083e8958d, type: 3}
+      m_VolumeRange: {x: 0.2, y: 0.4}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_BulletDecals: []
+    m_BulletImpactFX:
+    - {fileID: 1773808860686854, guid: a93d1e82f09cfab4c94987fb9b8b9a4a, type: 2}
+    m_ChopSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: f2ace664e65d7e34293daaecce3a4fdb, type: 3}
+      - {fileID: 8300000, guid: 4209172a72270df4c842ae73a9bfa099, type: 3}
+      m_VolumeRange: {x: 0.3, y: 0.5}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_HitSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: f2ace664e65d7e34293daaecce3a4fdb, type: 3}
+      - {fileID: 8300000, guid: 4209172a72270df4c842ae73a9bfa099, type: 3}
+      m_VolumeRange: {x: 0.3, y: 0.5}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_ChopFX:
+    - {fileID: 1773808860686854, guid: a93d1e82f09cfab4c94987fb9b8b9a4a, type: 2}
+    m_HitFX:
+    - {fileID: 1773808860686854, guid: a93d1e82f09cfab4c94987fb9b8b9a4a, type: 2}
+    m_IsPenetrable: 1
+    m_SpearPenetrationSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: 6dc810d45af334344a69eee943ae1714, type: 3}
+      m_VolumeRange: {x: 0.2, y: 0.3}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_ArrowPenetrationSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: d4f1895dffd790140b53c47875afeba7, type: 3}
+      m_VolumeRange: {x: 0.2, y: 0.3}
+      m_PitchRange: {x: 0.9, y: 1.1}
+  - m_Name: Metal
+    m_Textures:
+    - {fileID: 2800000, guid: 0f1f81be66915ba40959aa374a6cf393, type: 3}
+    - {fileID: 2800000, guid: ad0862e23aae28b4eb58851d9883f202, type: 3}
+    m_FootstepSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: b8e82ff38ec537c468f3028aff8c49c2, type: 3}
+      - {fileID: 8300000, guid: 476cbe3fad524f54e8bc5ee6e76e3160, type: 3}
+      - {fileID: 8300000, guid: 905c78ac442abfd4eb6ef903c8deb6a8, type: 3}
+      - {fileID: 8300000, guid: a4e1a9b6c43cb564e91f984ae0ca2bbb, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_JumpSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_LandSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: b8e82ff38ec537c468f3028aff8c49c2, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_BulletImpactSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: 319c9fffa581d154d85b44d63caa034d, type: 3}
+      - {fileID: 8300000, guid: 176c16b4e4d003641b502734866f7650, type: 3}
+      m_VolumeRange: {x: 0.3, y: 0.5}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_BulletDecals:
+    - {fileID: 1555704549140789, guid: 993ef99e6d02a70439f9ba3990ddfa35, type: 2}
+    m_BulletImpactFX:
+    - {fileID: 1960869238337812, guid: 244a58c5af25aed4ab0cea342b42a6a8, type: 2}
+    m_ChopSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_HitSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_ChopFX: []
+    m_HitFX: []
+    m_IsPenetrable: 0
+    m_SpearPenetrationSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_ArrowPenetrationSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+  - m_Name: Wood
+    m_Textures:
+    - {fileID: 0}
+    - {fileID: 2800000, guid: f30fc7159d8131e4fa96bdb5cccf37c0, type: 3}
+    - {fileID: 2800000, guid: aeef71fc66f9a9a49a7fd284a608f047, type: 3}
+    - {fileID: 2800000, guid: 2e687ad54595cbd4da3a5ba05cd4c1a9, type: 3}
+    - {fileID: 2800000, guid: b23526716075c3e44b3f8b791638430a, type: 3}
+    - {fileID: 2800000, guid: 9450e05e7d1c92c44a04605a0b501182, type: 3}
+    - {fileID: 2800000, guid: 24692bc01360c784bbe3d3359511121e, type: 3}
+    - {fileID: 2800000, guid: 20829d2be48ed6d45813278ad8d51c62, type: 3}
+    m_FootstepSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: 30fd1c0bd46fd5f48b76e2d6e7fa6305, type: 3}
+      - {fileID: 8300000, guid: 519f2059809bada49962fa17ec4d1b4a, type: 3}
+      - {fileID: 8300000, guid: 711ae50e263e0754398b9c01e59d57ad, type: 3}
+      - {fileID: 8300000, guid: 2633a60b471f2404a9af29e563d12809, type: 3}
+      - {fileID: 8300000, guid: e854452331894084180d9ece17a9bb65, type: 3}
+      m_VolumeRange: {x: 0.25, y: 0.35}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_JumpSounds:
+      m_Sounds: []
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_LandSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: 30fd1c0bd46fd5f48b76e2d6e7fa6305, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_BulletImpactSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: e0a744e82301b5748b9f65c26263c336, type: 3}
+      - {fileID: 8300000, guid: 2a06e995735664444873c3c0e239a487, type: 3}
+      m_VolumeRange: {x: 0.3, y: 0.5}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_BulletDecals:
+    - {fileID: 1251562157661397, guid: c6c3b3ed83b3b9b4c8ef3e6efde67764, type: 2}
+    m_BulletImpactFX:
+    - {fileID: 1868212110756839, guid: d3b2dcbb5642a104d96b54cd297f7446, type: 2}
+    m_ChopSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: 10b31605887e83f4e90c7eb8276b7fb1, type: 3}
+      - {fileID: 8300000, guid: 4891c9c312e253d4182947bb85d81cec, type: 3}
+      - {fileID: 8300000, guid: 321e16c244745584bbdb260732d40a5b, type: 3}
+      - {fileID: 8300000, guid: e5b951d87fb8cee48949c8921108b7f7, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_HitSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: b8ee2db78e445d44b8aaaeafbdad3c68, type: 3}
+      - {fileID: 8300000, guid: 6af6ad7e95baa614a9edbb3a6a540048, type: 3}
+      - {fileID: 8300000, guid: 1d9ef6b40f0bae245b379bd11c0754d3, type: 3}
+      m_VolumeRange: {x: 0.5, y: 0.75}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_ChopFX:
+    - {fileID: 1539909512183792, guid: fd18c79bfec38804ea9e158de147ce21, type: 2}
+    m_HitFX:
+    - {fileID: 1539909512183792, guid: fd18c79bfec38804ea9e158de147ce21, type: 2}
+    m_IsPenetrable: 1
+    m_SpearPenetrationSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: e98e5448a4e80e549b6d13e95e169ac6, type: 3}
+      m_VolumeRange: {x: 0.4, y: 0.55}
+      m_PitchRange: {x: 0.9, y: 1.1}
+    m_ArrowPenetrationSounds:
+      m_Sounds:
+      - {fileID: 8300000, guid: 8f47c4a758c5e5840acbc14df5353f0c, type: 3}
+      m_VolumeRange: {x: 0.4, y: 0.55}
+      m_PitchRange: {x: 0.9, y: 1.1}

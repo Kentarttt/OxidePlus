@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shotgun
+  m_Controller: {fileID: 9100000, guid: 58819d1a1868aae44bf63bca46ebd585, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e482ac29b29f7164e9d598e060bfc393, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 184c5143695e1c7469a2a472c8878d93, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: efe8395e158a4e745a758c74f1a9542c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d6a538e628feb49448bea4ef5b410a5d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2e9b07c585306f741b820fa2813dca5e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8c620387b7f58c54bbfdb4c27ee00a67, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ac7b0992775c53e4788f5075907542b2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2fded9a91a82d5747a4db9064d0cb056, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b409b48e64343cd4e8c854c5c5efefc5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a1a38203a9a36864f94cc4cd1034af2b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 770c6b8546857f44d9189a9a032f2cc3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 770c6b8546857f44d9189a9a032f2cc3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 18026c37250353d46b23381906b5751c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 18026c37250353d46b23381906b5751c, type: 2}
+  - m_OriginalClip: {fileID: 0}
+    m_OverrideClip: {fileID: 7400000, guid: 5e96dab68280d5e4c874e1f3170f2e2f, type: 2}
+  - m_OriginalClip: {fileID: 0}
+    m_OverrideClip: {fileID: 7400000, guid: 82173f68ee94834409189a5b86cc7173, type: 2}
+  - m_OriginalClip: {fileID: 0}
+    m_OverrideClip: {fileID: 7400000, guid: c2793f7dcf90e824187f638f46bacb2a, type: 2}
+  - m_OriginalClip: {fileID: 0}
+    m_OverrideClip: {fileID: 7400000, guid: ef69ad9347b90d04a89ae5b97a6d7304, type: 2}

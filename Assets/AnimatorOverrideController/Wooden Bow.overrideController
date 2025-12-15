@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Wooden Bow
+  m_Controller: {fileID: 9100000, guid: ee1eca2e574b19441a45753f8046a17b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: aaf0a4bf336c03745a593ca37b4765aa, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b50ebcd354028014b83f6e1da81628a1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 73bcf92c151240b418eab9535124d966, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d72d81f63dd540b458bf7e0094d55152, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8e992453c0f890b47afcd5c83917c8ed, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 92c0f67eab4384c429ebd7546e8e6ce2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cedea9df8ce09f14cb7ef17e6f0e6ba2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7bc0833b544f7944f8de43769bf97f86, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d81f5536fd07a014f8b05e7bac7776a6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9cd3061a21ab58d4c84000b77d92c6e1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 04ca2b25adc8c1349adafb3cfd459bd8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f3a96c31144d1184cba227b3ad6760f4, type: 2}

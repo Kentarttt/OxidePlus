@@ -1,0 +1,3652 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94a7c695abb8c62054a565c4134c3eae, type: 3}
+  m_Name: Item Database
+  m_EditorClassIdentifier: 
+  m_Categories:
+  - m_Name: Resource
+    m_Items:
+    - m_Name: Log
+      m_DisplayName: 
+      m_Id: 0
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: e046a7d7aaa17e64aaf38a68f7ef0998, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A log from a tree.
+      - '- Fuel Duration: <color=olive>{0} seconds</color>
+
+        - Burn Duration:
+        <color=olive>{1} seconds</color>'
+      m_StackSize: 99
+      m_PropertyValues:
+      - m_Name: Fuel Time
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 12
+          m_Default: 12
+        m_FloatRange:
+          m_Current: 12
+          m_Min: 0
+          m_Max: 12
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Coal
+        m_Sound: {fileID: 0}
+      - m_Name: Burn Time
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 8
+          m_Default: 8
+        m_FloatRange:
+          m_Current: 8
+          m_Min: 0
+          m_Max: 8
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Coal
+        m_Sound: {fileID: 0}
+      - m_Name: Burn Result
+        m_Type: 8
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Coal
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 1
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 1
+        m_Amount: 10
+    - m_Name: Plank
+      m_DisplayName: 
+      m_Id: 1
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 763fea5763a35a2458bbf44fd858294b, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - The material you'll need to build a nice home.
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 1
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 1
+        m_Amount: 10
+    - m_Name: Stick
+      m_DisplayName: 
+      m_Id: 2
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 8599553f9faccf04280042f1d11e0d2b, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - Great for crafting handles for tools.
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 5
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 1
+        m_Amount: 10
+    - m_Name: Coal
+      m_DisplayName: 
+      m_Id: 3
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: da8f42806efaee146b5d5ab884bfe846, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - 'Obtain it by mining, or burning wood,
+
+        it is a very efficient fuel.'
+      - '- Fuel Duration: <color=olive>{0} seconds</color>'
+      m_StackSize: 99
+      m_PropertyValues:
+      - m_Name: Fuel Time
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 25
+          m_Default: 25
+        m_FloatRange:
+          m_Current: 25
+          m_Min: 0
+          m_Max: 25
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Coal
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 1
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 1
+        m_Amount: 10
+    - m_Name: Stone
+      m_DisplayName: 
+      m_Id: 4
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 6ece50958358b97448a5a7805a2e88f8, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - 'Basic resource obtainable by mining,
+
+        requires a pickaxe, or stone
+        hatchet.'
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 5
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 1
+        m_Amount: 10
+    - m_Name: Metal Ore
+      m_DisplayName: 
+      m_Id: 5
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 56f4cb6029a7cbe4bb07a7ef3c3d105e, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - "A pretty rare resource, used \nin advanced recipes."
+      - '- Smelt Duration: <color=olive>{0} seconds</color>'
+      m_StackSize: 99
+      m_PropertyValues:
+      - m_Name: Burn Time
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 15
+          m_Default: 15
+        m_FloatRange:
+          m_Current: 20
+          m_Min: 0
+          m_Max: 20
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Burn Result
+        m_Type: 8
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Metal Fragment
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 1
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 1
+        m_Amount: 10
+    - m_Name: Metal Fragment
+      m_DisplayName: 
+      m_Id: 6
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: c1338573b9f886445b6a4d3ca9544e41, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - "Smelted metal ore. \nUseful for crafting guns."
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 0
+        m_RequiredItems: []
+      m_Purchase:
+        m_Price: 5
+        m_Amount: 10
+    - m_Name: Sulfur Ore
+      m_DisplayName: 
+      m_Id: 7
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 79a24862f4f7f33498d6fe9609c46d50, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A very rare resource.
+      - '- Smelt Duration: <color=olive>{0} seconds</color>'
+      m_StackSize: 99
+      m_PropertyValues:
+      - m_Name: Burn Time
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 12
+          m_Default: 12
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Burn Result
+        m_Type: 8
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Sulfur
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 0
+        m_Amount: 0
+    - m_Name: Sulfur
+      m_DisplayName: 
+      m_Id: 8
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: b25e229d8492fca4f9310d587781b3bf, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A requirement for crafting gun powder.
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 0
+        m_Amount: 0
+    - m_Name: Gun Powder
+      m_DisplayName: 
+      m_Id: 9
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 418df63ddf638c84c828431c7419ae46, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - Used in ammunition.
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Sulfur
+          m_Amount: 1
+        - m_Name: Metal Fragment
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 2
+        m_Amount: 5
+    - m_Name: Cloth
+      m_DisplayName: 
+      m_Id: 10
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: e68efc5adcefed144a8fc76ec8e0d386, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - Obtained by burning leather in a furnace.
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Leather
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 3
+        m_Amount: 5
+    - m_Name: Leather
+      m_DisplayName: 
+      m_Id: 11
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 70133fd694f63a34e9eabdef9b217508, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - 'Useful for crafting equipment, it is obtained
+
+        by skinning animals.'
+      - '- Burn Duration: <color=olive>{0} seconds</color>'
+      m_StackSize: 99
+      m_PropertyValues:
+      - m_Name: Burn Time
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 10
+          m_Default: 10
+        m_FloatRange:
+          m_Current: 8
+          m_Min: 0
+          m_Max: 8
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Burn Result
+        m_Type: 8
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 1
+          m_Min: 0
+          m_Max: 1
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Cloth
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 4
+        m_Amount: 5
+    - m_Name: Bone
+      m_DisplayName: 
+      m_Id: 12
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: c6a0d67f03fdfe740ba4a4942e2d0e34, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A heavy bone, taken from a wild boar.
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 2
+        m_Amount: 5
+    - m_Name: Scrap
+      m_DisplayName: 
+      m_Id: 13
+      m_Category: Resource
+      m_Icon: {fileID: 21300000, guid: 9d1c44ccb8063564482bcdd8019ac5db, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - "\u041D\u0443 \u0434\u0430, \u044D\u0442\u043E \u0441\u043A\u0440\u0430\u043F,
+        \u0430 \u0447\u0435?)"
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 8
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 25
+        m_Amount: 50
+  - m_Name: Consumable
+    m_Items:
+    - m_Name: Raw Meat
+      m_DisplayName: 
+      m_Id: 14
+      m_Category: Consumable
+      m_Icon: {fileID: 21300000, guid: 5b33117ed1464404f8060b6c7068c4bd, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - Very delicious cooked.
+      - '- Restores <color=olive>{0}</color> hunger.'
+      m_StackSize: 99
+      m_PropertyValues:
+      - m_Name: Hunger Change
+        m_Type: 4
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Burn Time
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 10
+          m_Default: 10
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Burn Result
+        m_Type: 8
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 10
+          m_Default: 10
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Cooked Meat
+        m_Sound: {fileID: 0}
+      - m_Name: Can Consume
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 10
+          m_Default: 10
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Cooked Meat
+        m_Sound: {fileID: 0}
+      - m_Name: Consume Sound
+        m_Type: 9
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 10
+          m_Default: 10
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Cooked Meat
+        m_Sound: {fileID: 8300000, guid: 01d29f91f8ccf0345a5b7cbaa69b2d49, type: 3}
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 1
+        m_RequiredItems:
+        - m_Name: Raw Meat
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 3
+        m_Amount: 10
+    - m_Name: Cooked Meat
+      m_DisplayName: 
+      m_Id: 15
+      m_Category: Consumable
+      m_Icon: {fileID: 21300000, guid: c424f27e04793354392c9022e2979a46, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - 'Will restore a good amount of hunger.
+
+'
+      - '- Restores <color=olive>{0}</color> hunger.'
+      m_StackSize: 99
+      m_PropertyValues:
+      - m_Name: Hunger Change
+        m_Type: 4
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 20
+          m_Max: 25
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Consume
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 20
+          m_Max: 25
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Consume Sound
+        m_Type: 9
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 20
+          m_Max: 25
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 8300000, guid: 01d29f91f8ccf0345a5b7cbaa69b2d49, type: 3}
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 1
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 5
+        m_Amount: 10
+    - m_Name: Rotten Meat
+      m_DisplayName: 
+      m_Id: 16
+      m_Category: Consumable
+      m_Icon: {fileID: 21300000, guid: 537eabaad32ecbb42beedaf3e1da631d, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - 'Be careful with this piece of meat,
+
+        it might be too rotten to eat.'
+      - '- Changes health with <color=olive>{0}</color>.'
+      m_StackSize: 99
+      m_PropertyValues:
+      - m_Name: Health Change
+        m_Type: 4
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: -15
+          m_Max: 15
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Consume
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 10
+          m_Max: 14
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Consume Sound
+        m_Type: 9
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 10
+          m_Max: 14
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 8300000, guid: 01d29f91f8ccf0345a5b7cbaa69b2d49, type: 3}
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 1
+        m_RequiredItems:
+        - m_Name: Raw Meat
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 0
+        m_Amount: 0
+    - m_Name: Water Bottle
+      m_DisplayName: 
+      m_Id: 17
+      m_Category: Consumable
+      m_Icon: {fileID: 21300000, guid: 256ca3bce6fb79f4aac975dd03f6bb11, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A 0.5L bottle of water.
+      - '- Restores <color=olive>{0}</color> thirst.'
+      m_StackSize: 99
+      m_PropertyValues:
+      - m_Name: Thirst Change
+        m_Type: 4
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Consume
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 10
+          m_Max: 14
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Consume Sound
+        m_Type: 9
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 10
+          m_Max: 14
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 8300000, guid: cd351ea331824d44baecef7c11b4277f, type: 3}
+      m_IsBuildable: 0
+      m_IsCraftable: 0
+      m_Recipe:
+        m_Duration: 1
+        m_RequiredItems:
+        - m_Name: Raw Meat
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 0
+        m_Amount: 0
+  - m_Name: Interactable
+    m_Items:
+    - m_Name: Campfire
+      m_DisplayName: 
+      m_Id: 18
+      m_Category: Interactable
+      m_Icon: {fileID: 21300000, guid: 851c038ee41de7a4cbbc875ac084fe03, type: 2}
+      m_WorldObject: {fileID: 1845516610055038, guid: 167b6504a7eeaba4bb088c83f5dba60d,
+        type: 3}
+      m_Descriptions:
+      - 'Great for cooking, will keep you warm
+
+        in your first night here.'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Is Placeable
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 1
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 60
+        m_RequiredItems:
+        - m_Name: Stone
+          m_Amount: 24
+      m_Purchase:
+        m_Price: 2
+        m_Amount: 1
+    - m_Name: Storage Box
+      m_DisplayName: 
+      m_Id: 19
+      m_Category: Interactable
+      m_Icon: {fileID: 21300000, guid: 9e85c46250cf1b04facabbcf9598f472, type: 2}
+      m_WorldObject: {fileID: 1516501471324809, guid: 0e77568244e43434fb066846ef1d225e,
+        type: 3}
+      m_Descriptions:
+      - 'Whatever you don''t immediately need,
+
+        you can store in here.'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Is Placeable
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 1
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 60
+        m_RequiredItems:
+        - m_Name: Plank
+          m_Amount: 12
+        - m_Name: Metal Fragment
+          m_Amount: 6
+      m_Purchase:
+        m_Price: 2
+        m_Amount: 1
+    - m_Name: Furnace
+      m_DisplayName: 
+      m_Id: 20
+      m_Category: Interactable
+      m_Icon: {fileID: 21300000, guid: ac31a64ff4add894cac914262d8009a2, type: 2}
+      m_WorldObject: {fileID: 1855383135245316, guid: dfdccfc50e54dbb4b99706cfe141d2e4,
+        type: 3}
+      m_Descriptions:
+      - Can be used for cooking, or smelting.
+      m_StackSize: 66
+      m_PropertyValues:
+      - m_Name: Is Placeable
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 1
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 120
+        m_RequiredItems:
+        - m_Name: Stone
+          m_Amount: 64
+      m_Purchase:
+        m_Price: 5
+        m_Amount: 1
+    - m_Name: Anvil
+      m_DisplayName: 
+      m_Id: 21
+      m_Category: Interactable
+      m_Icon: {fileID: 21300000, guid: e3efae433be3001439dc4ac26ae0adfc, type: 2}
+      m_WorldObject: {fileID: 1075602808654970, guid: 4bf51703b6d017948a7a818ebcbfec7b,
+        type: 3}
+      m_Descriptions:
+      - Repair items here.
+      m_StackSize: 9
+      m_PropertyValues:
+      - m_Name: Is Placeable
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 1
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 120
+        m_RequiredItems:
+        - m_Name: Stone
+          m_Amount: 64
+      m_Purchase:
+        m_Price: 5
+        m_Amount: 1
+    - m_Name: Sleeping Bag
+      m_DisplayName: 
+      m_Id: 22
+      m_Category: Interactable
+      m_Icon: {fileID: 21300000, guid: fa7c19dfc187a524d9634f6a9a58f692, type: 2}
+      m_WorldObject: {fileID: 1452079936027128, guid: c401f996843033c479d6d4eaa0b1cc99,
+        type: 3}
+      m_Descriptions:
+      - "You will respawn at this bag if you die.\nAlso when you sleep, \nthe time
+        will fast-forward until morning comes."
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Is Placeable
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 1
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 80
+        m_RequiredItems:
+        - m_Name: Cloth
+          m_Amount: 21
+      m_Purchase:
+        m_Price: 5
+        m_Amount: 1
+  - m_Name: Tool
+    m_Items:
+    - m_Name: Axe
+      m_DisplayName: 
+      m_Id: 23
+      m_Category: Tool
+      m_Icon: {fileID: 21300000, guid: 39f28fdc056f99946bcb2ee77ad425e4, type: 2}
+      m_WorldObject: {fileID: 1492566466029091, guid: 51ed7396785776849a0f2413fa1a3b3f,
+        type: 3}
+      m_Descriptions:
+      - 'Chops down trees easily.
+
+        Requires metal to craft.'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 256
+          m_Default: 256
+        m_FloatRange:
+          m_Current: 256
+          m_Min: 0
+          m_Max: 256
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 256
+          m_Default: 256
+        m_FloatRange:
+          m_Current: 256
+          m_Min: 0
+          m_Max: 256
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 25
+        m_RequiredItems:
+        - m_Name: Stick
+          m_Amount: 4
+        - m_Name: Metal Fragment
+          m_Amount: 6
+      m_Purchase:
+        m_Price: 4
+        m_Amount: 1
+    - m_Name: Stone Hatchet
+      m_DisplayName: 
+      m_Id: 24
+      m_Category: Tool
+      m_Icon: {fileID: 21300000, guid: 7fcfdfa87fffe1c46abf57e10aa7bdac, type: 2}
+      m_WorldObject: {fileID: 1668165898542360, guid: 3fcf5f4d4e033d4499b3bd8dda3cf900,
+        type: 3}
+      m_Descriptions:
+      - 'Sharp enough to cut down a tree, strong
+
+        enough to break rocks.'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 128
+          m_Min: 0
+          m_Max: 128
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 128
+          m_Min: 0
+          m_Max: 128
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 35
+        m_RequiredItems:
+        - m_Name: Stick
+          m_Amount: 4
+        - m_Name: Stone
+          m_Amount: 8
+        - m_Name: Cloth
+          m_Amount: 5
+      m_Purchase:
+        m_Price: 2
+        m_Amount: 1
+    - m_Name: Pickaxe
+      m_DisplayName: 
+      m_Id: 25
+      m_Category: Tool
+      m_Icon: {fileID: 21300000, guid: 8b17e3fad45dabd48803f5a624d97fa3, type: 2}
+      m_WorldObject: {fileID: 1306089535541910, guid: d488ac13d7aadcb4bb2d59b2ace1c4d9,
+        type: 3}
+      m_Descriptions:
+      - A sharp, iron-made pickaxe.
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 256
+          m_Default: 256
+        m_FloatRange:
+          m_Current: 256
+          m_Min: 0
+          m_Max: 256
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 256
+          m_Default: 256
+        m_FloatRange:
+          m_Current: 128
+          m_Min: 0
+          m_Max: 128
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 48
+        m_RequiredItems:
+        - m_Name: Stick
+          m_Amount: 4
+        - m_Name: Metal Fragment
+          m_Amount: 8
+        - m_Name: Cloth
+          m_Amount: 5
+      m_Purchase:
+        m_Price: 2
+        m_Amount: 1
+    - m_Name: Torch
+      m_DisplayName: 
+      m_Id: 26
+      m_Category: Tool
+      m_Icon: {fileID: 21300000, guid: 4cb7de617adf5ab4da97be57fd113bb5, type: 2}
+      m_WorldObject: {fileID: 1543257294454309, guid: 50b57aba533fce748886d62fcd80f3d0,
+        type: 3}
+      m_Descriptions:
+      - Let there be light!
+      m_StackSize: 1
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 48
+        m_RequiredItems:
+        - m_Name: Stick
+          m_Amount: 4
+        - m_Name: Cloth
+          m_Amount: 4
+      m_Purchase:
+        m_Price: 2
+        m_Amount: 1
+  - m_Name: Bow
+    m_Items:
+    - m_Name: Wooden Bow
+      m_DisplayName: 
+      m_Id: 27
+      m_Category: Bow
+      m_Icon: {fileID: 21300000, guid: caa5b22d3cba6ab4292f2f1da47afbef, type: 2}
+      m_WorldObject: {fileID: 1506606973442886, guid: 87e9cad4899bdb14f8476f5a879e30fc,
+        type: 3}
+      m_Descriptions:
+      - The perfect weapon for hunting small animals.
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 72
+          m_Default: 72
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Ammo Type
+        m_Type: 8
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 24
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 72
+          m_Default: 72
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Arrow
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 24
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 72
+          m_Default: 72
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 55
+        m_RequiredItems:
+        - m_Name: Stick
+          m_Amount: 8
+        - m_Name: Cloth
+          m_Amount: 12
+      m_Purchase:
+        m_Price: 4
+        m_Amount: 1
+  - m_Name: Throwable
+    m_Items:
+    - m_Name: Wooden Spear
+      m_DisplayName: 
+      m_Id: 28
+      m_Category: Throwable
+      m_Icon: {fileID: 21300000, guid: 9db973fa01bfae143b3cb81b2712a5c3, type: 2}
+      m_WorldObject: {fileID: 1865197877938229, guid: 710f03af39714504989e570183ec8ac5,
+        type: 3}
+      m_Descriptions:
+      - A simple wooden spear.
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Durability
+        m_Type: 4
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 16
+          m_Default: 16
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 24
+        m_RequiredItems:
+        - m_Name: Stick
+          m_Amount: 12
+      m_Purchase:
+        m_Price: 2
+        m_Amount: 1
+    - m_Name: Iron Spear
+      m_DisplayName: 
+      m_Id: 29
+      m_Category: Throwable
+      m_Icon: {fileID: 21300000, guid: dc128fb517329a549bd9d0230b433483, type: 2}
+      m_WorldObject: {fileID: 1815146447025054, guid: 2534fb3410b2c7a43b6890932ac63963,
+        type: 3}
+      m_Descriptions:
+      - Slightly more powerful than the wooden version.
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Durability
+        m_Type: 4
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 24
+          m_Default: 24
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 32
+        m_RequiredItems:
+        - m_Name: Stick
+          m_Amount: 12
+        - m_Name: Metal Fragment
+          m_Amount: 2
+      m_Purchase:
+        m_Price: 3
+        m_Amount: 1
+  - m_Name: Melee Weapon
+    m_Items:
+    - m_Name: Bone Club
+      m_DisplayName: 
+      m_Id: 30
+      m_Category: Melee Weapon
+      m_Icon: {fileID: 21300000, guid: 62206f91dc4cf43448860f7950608a0d, type: 2}
+      m_WorldObject: {fileID: 1031039527512815, guid: 15f4ce3c2ce66664fa2ab514f62335d5,
+        type: 3}
+      m_Descriptions:
+      - 'A heavy boar femur.
+
+        Low durability, but very powerful.'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 64
+          m_Default: 64
+        m_FloatRange:
+          m_Current: 64
+          m_Min: 0
+          m_Max: 64
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 25
+        m_RequiredItems:
+        - m_Name: Bone
+          m_Amount: 1
+        - m_Name: Cloth
+          m_Amount: 4
+      m_Purchase:
+        m_Price: 1
+        m_Amount: 1
+  - m_Name: Gun
+    m_Items:
+    - m_Name: Assault Rifle
+      m_DisplayName: 
+      m_Id: 31
+      m_Category: Gun
+      m_Icon: {fileID: 21300000, guid: 36d6f0d76c82c7b4abf0ef22cb5bd7bb, type: 2}
+      m_WorldObject: {fileID: 1011494157805761, guid: 9f2f79d9278a7aa4dbee036834bbd677,
+        type: 3}
+      m_Descriptions:
+      - "The only automatic gun around, \nmake good use of it."
+      - '- Type: <color=olive>Full Auto</color>
+
+        - Shoots: <color=olive>5.56
+        Rifle Cartridge</color>
+
+        - Range: <color=olive>250 meters</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 256
+          m_Default: 256
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Ammo Type
+        m_Type: 8
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 30
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 5.56 Bullet
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 30
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 55
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 2
+        - m_Name: Metal Fragment
+          m_Amount: 24
+        - m_Name: Cloth
+          m_Amount: 8
+      m_Purchase:
+        m_Price: 12
+        m_Amount: 1
+    - m_Name: Revolver
+      m_DisplayName: 
+      m_Id: 32
+      m_Category: Gun
+      m_Icon: {fileID: 21300000, guid: b091a0c02b4f50b438ee68daf4eed153, type: 2}
+      m_WorldObject: {fileID: 1863885285283709, guid: dae5e2f01e6fca948b2b7e501cc0fa63,
+        type: 3}
+      m_Descriptions:
+      - 'Be careful not to hit yourself in the face,
+
+        when recoil happens.'
+      - '- Type: <color=olive>Semi-Auto</color>
+
+        - Shoots: <color=olive>.44
+        Mag Cartridge</color>
+
+        - Range: <color=olive>150 meters</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 64
+          m_Default: 64
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Ammo Type
+        m_Type: 8
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 7
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: .44 Bullet
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 7
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 45
+        m_RequiredItems:
+        - m_Name: Metal Fragment
+          m_Amount: 16
+      m_Purchase:
+        m_Price: 9
+        m_Amount: 1
+    - m_Name: Shotgun
+      m_DisplayName: 
+      m_Id: 33
+      m_Category: Gun
+      m_Icon: {fileID: 21300000, guid: 549be1ac9e969e14eb38bcaa5b078600, type: 2}
+      m_WorldObject: {fileID: 1407587579528210, guid: d23805a74df62724980a26c87e00b780,
+        type: 3}
+      m_Descriptions:
+      - 'Devastating at close range,
+
+        takes down everything with one shot.'
+      - '- Type: <color=olive>Pump Action</color>
+
+        - Shoots: <color=olive>Classic
+        Shell</color>
+
+        - Range: <color=olive>30 meters</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 48
+          m_Default: 48
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Ammo Type
+        m_Type: 8
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 2
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 48
+          m_Default: 48
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Shell
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 8
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 55
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 4
+        - m_Name: Metal Fragment
+          m_Amount: 18
+      m_Purchase:
+        m_Price: 10
+        m_Amount: 1
+    - m_Name: Hunting Rifle
+      m_DisplayName: 
+      m_Id: 34
+      m_Category: Gun
+      m_Icon: {fileID: 21300000, guid: d72d40e9372896a4783b75e2ab131e1b, type: 2}
+      m_WorldObject: {fileID: 1400877773220488, guid: 04cd45a8510c988428d9f23f790b52e1,
+        type: 3}
+      m_Descriptions:
+      - 'Very accurate, can take down targets,
+
+        at over 300m.'
+      - '- Type: <color=olive>Bolt-Action</color>
+
+        - Shoots: <color=olive>5.56</color>
+
+        -
+        Range: <color=olive>300+ meters</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Ammo Type
+        m_Type: 8
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 2
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 48
+          m_Default: 48
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Shell
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 8
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 55
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 4
+        - m_Name: Metal Fragment
+          m_Amount: 18
+      m_Purchase:
+        m_Price: 10
+        m_Amount: 1
+    - m_Name: Rocket Launcher
+      m_DisplayName: 
+      m_Id: 35
+      m_Category: Gun
+      m_Icon: {fileID: 21300000, guid: 7be9dcb15fcd08f418da531fb3dafec5, type: 2}
+      m_WorldObject: {fileID: 1315072812045845, guid: 31e6c1c4b75796e4fb4cf48e23a13af8,
+        type: 3}
+      m_Descriptions:
+      - 'Very accurate, can take down targets,
+
+        at over 300m.'
+      - '- Type: <color=olive>Bolt-Action</color>
+
+        - Shoots: <color=olive>5.56</color>
+
+        -
+        Range: <color=olive>300+ meters</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Ammo Type
+        m_Type: 8
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 2
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 48
+          m_Default: 48
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: Rocket
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 8
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 55
+        m_RequiredItems:
+        - m_Name: Log
+          m_Amount: 4
+        - m_Name: Metal Fragment
+          m_Amount: 18
+      m_Purchase:
+        m_Price: 10
+        m_Amount: 1
+  - m_Name: Ammunition
+    m_Items:
+    - m_Name: Arrow
+      m_DisplayName: 
+      m_Id: 36
+      m_Category: Ammunition
+      m_Icon: {fileID: 21300000, guid: 6f47959c8d20a92419fd998744c6e27d, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - Can take down small animals easily.
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 5
+        m_RequiredItems:
+        - m_Name: Stick
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 1
+        m_Amount: 10
+    - m_Name: 5.56 Bullet
+      m_DisplayName: 
+      m_Id: 37
+      m_Category: Ammunition
+      m_Icon: {fileID: 21300000, guid: 0e40d576a49a8ce4cbd0062c77769b69, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - Hunting Rifle ammunition.
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 5
+        m_RequiredItems:
+        - m_Name: Gun Powder
+          m_Amount: 1
+        - m_Name: Metal Fragment
+          m_Amount: 1
+      m_Purchase:
+        m_Price: 2
+        m_Amount: 10
+    - m_Name: .44 Bullet
+      m_DisplayName: 
+      m_Id: 38
+      m_Category: Ammunition
+      m_Icon: {fileID: 21300000, guid: e6cad9042cd57964c893a2e455389bb3, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - .44 Magnum ammunition.
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 12
+        m_RequiredItems:
+        - m_Name: Gun Powder
+          m_Amount: 2
+        - m_Name: Metal Fragment
+          m_Amount: 2
+      m_Purchase:
+        m_Price: 2
+        m_Amount: 5
+    - m_Name: Shell
+      m_DisplayName: 
+      m_Id: 39
+      m_Category: Ammunition
+      m_Icon: {fileID: 21300000, guid: 5f163d6246d1860438b58c9fe3ab8ede, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A 6-pellet shell.
+      m_StackSize: 99
+      m_PropertyValues: []
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 15
+        m_RequiredItems:
+        - m_Name: Gun Powder
+          m_Amount: 2
+        - m_Name: Metal Fragment
+          m_Amount: 3
+      m_Purchase:
+        m_Price: 2
+        m_Amount: 4
+  - m_Name: Head Equipment
+    m_Items:
+    - m_Name: Bone Helmet
+      m_DisplayName: 
+      m_Id: 40
+      m_Category: Head Equipment
+      m_Icon: {fileID: 21300000, guid: e382f699704800e48a9923ec40ffa18c, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A protective cannibal skull.
+      - 'Defense: <color=olive>+{0}</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Defense
+        m_Type: 2
+        m_Bool: 0
+        m_Int:
+          m_Current: 5
+          m_Default: 5
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 7
+          m_Max: 10
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 96
+          m_Default: 96
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 64
+          m_Default: 64
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 30
+        m_RequiredItems:
+        - m_Name: Bone
+          m_Amount: 6
+      m_Purchase:
+        m_Price: 3
+        m_Amount: 1
+    - m_Name: Leather Helmet
+      m_DisplayName: 
+      m_Id: 41
+      m_Category: Head Equipment
+      m_Icon: {fileID: 21300000, guid: 5531d39799ef0c743a2162cb029afccb, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - Basic head protection.
+      - 'Defense: <color=olive>+{0}</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Defense
+        m_Type: 2
+        m_Bool: 0
+        m_Int:
+          m_Current: 7
+          m_Default: 7
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 9
+          m_Max: 12
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 72
+          m_Default: 72
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 30
+        m_RequiredItems:
+        - m_Name: Leather
+          m_Amount: 6
+      m_Purchase:
+        m_Price: 4
+        m_Amount: 1
+    - m_Name: Wooden Helmet
+      m_DisplayName: 
+      m_Id: 42
+      m_Category: Head Equipment
+      m_Icon: {fileID: 21300000, guid: 5e8d7b933556c8541ad83834054c9408, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A stiff wooden head protection.
+      - 'Defense: <color=olive>+{0}</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Defense
+        m_Type: 2
+        m_Bool: 0
+        m_Int:
+          m_Current: 3
+          m_Default: 3
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 11
+          m_Max: 15
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 64
+          m_Default: 64
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 30
+        m_RequiredItems:
+        - m_Name: Plank
+          m_Amount: 6
+        - m_Name: Cloth
+          m_Amount: 6
+      m_Purchase:
+        m_Price: 2
+        m_Amount: 1
+  - m_Name: Torso Equipment
+    m_Items:
+    - m_Name: Bone Chestplate
+      m_DisplayName: 
+      m_Id: 43
+      m_Category: Torso Equipment
+      m_Icon: {fileID: 21300000, guid: fbcdfedf08460e445a352a58fb193cae, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A torso cover made from bones.
+      - 'Defense: <color=olive>+{0}</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Defense
+        m_Type: 2
+        m_Bool: 0
+        m_Int:
+          m_Current: 12
+          m_Default: 12
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0.3
+          m_Min: 0
+          m_Max: 0.3
+        m_RandomFloat:
+          m_Min: 12
+          m_Max: 15
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 96
+          m_Default: 96
+        m_FloatRange:
+          m_Current: 64
+          m_Min: 0
+          m_Max: 64
+        m_RandomFloat:
+          m_Min: 12
+          m_Max: 15
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 64
+          m_Default: 64
+        m_FloatRange:
+          m_Current: 64
+          m_Min: 0
+          m_Max: 64
+        m_RandomFloat:
+          m_Min: 12
+          m_Max: 15
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Disable Underwear
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 64
+          m_Default: 64
+        m_FloatRange:
+          m_Current: 64
+          m_Min: 0
+          m_Max: 64
+        m_RandomFloat:
+          m_Min: 12
+          m_Max: 15
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 60
+        m_RequiredItems:
+        - m_Name: Bone
+          m_Amount: 24
+        - m_Name: Cloth
+          m_Amount: 10
+      m_Purchase:
+        m_Price: 12
+        m_Amount: 1
+    - m_Name: Leather Chestplate
+      m_DisplayName: 
+      m_Id: 44
+      m_Category: Torso Equipment
+      m_Icon: {fileID: 21300000, guid: c60a9758315a3b346811a8fa5bd13df2, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - Basic torso protection.
+      - 'Defense: <color=olive>+{0}</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Defense
+        m_Type: 2
+        m_Bool: 0
+        m_Int:
+          m_Current: 16
+          m_Default: 16
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 15
+          m_Max: 18
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0.3
+          m_Min: 0
+          m_Max: 0.3
+        m_RandomFloat:
+          m_Min: 12
+          m_Max: 15
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 64
+          m_Min: 0
+          m_Max: 64
+        m_RandomFloat:
+          m_Min: 12
+          m_Max: 15
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 72
+          m_Default: 72
+        m_FloatRange:
+          m_Current: 64
+          m_Min: 0
+          m_Max: 64
+        m_RandomFloat:
+          m_Min: 12
+          m_Max: 15
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Disable Underwear
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 72
+          m_Default: 72
+        m_FloatRange:
+          m_Current: 64
+          m_Min: 0
+          m_Max: 64
+        m_RandomFloat:
+          m_Min: 12
+          m_Max: 15
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 60
+        m_RequiredItems:
+        - m_Name: Leather
+          m_Amount: 24
+      m_Purchase:
+        m_Price: 17
+        m_Amount: 0
+    - m_Name: Wood Chestplate
+      m_DisplayName: 
+      m_Id: 45
+      m_Category: Torso Equipment
+      m_Icon: {fileID: 21300000, guid: 61f1b8685726dd240a5c4d19f8ebe64f, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A stiff wooden torso protection.
+      - 'Defense: <color=olive>+{0}</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Defense
+        m_Type: 2
+        m_Bool: 0
+        m_Int:
+          m_Current: 8
+          m_Default: 8
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 18
+          m_Max: 20
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0.3
+          m_Min: 0
+          m_Max: 0.3
+        m_RandomFloat:
+          m_Min: 12
+          m_Max: 15
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 64
+          m_Default: 64
+        m_FloatRange:
+          m_Current: 64
+          m_Min: 0
+          m_Max: 64
+        m_RandomFloat:
+          m_Min: 12
+          m_Max: 15
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 64
+          m_Min: 0
+          m_Max: 64
+        m_RandomFloat:
+          m_Min: 12
+          m_Max: 15
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 60
+        m_RequiredItems:
+        - m_Name: Plank
+          m_Amount: 18
+        - m_Name: Cloth
+          m_Amount: 12
+      m_Purchase:
+        m_Price: 8
+        m_Amount: 0
+  - m_Name: Legs Equipment
+    m_Items:
+    - m_Name: Bone Leggings
+      m_DisplayName: 
+      m_Id: 46
+      m_Category: Legs Equipment
+      m_Icon: {fileID: 21300000, guid: 34939f95af80e0a4892ea3a87235a8a1, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A few bones tied together.
+      - 'Defense: <color=olive>+{0}</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Defense
+        m_Type: 2
+        m_Bool: 0
+        m_Int:
+          m_Current: 10
+          m_Default: 10
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 9
+          m_Max: 12
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 96
+          m_Default: 96
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 64
+          m_Default: 64
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 45
+        m_RequiredItems:
+        - m_Name: Bone
+          m_Amount: 12
+        - m_Name: Cloth
+          m_Amount: 16
+      m_Purchase:
+        m_Price: 11
+        m_Amount: 1
+    - m_Name: Leather Leggings
+      m_DisplayName: 
+      m_Id: 47
+      m_Category: Legs Equipment
+      m_Icon: {fileID: 21300000, guid: 46f4bbdeb7e64f343bdfcff4747dfa0d, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - Basic leg protection.
+      - 'Defense: <color=olive>+{0}</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Defense
+        m_Type: 2
+        m_Bool: 0
+        m_Int:
+          m_Current: 12
+          m_Default: 12
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 72
+          m_Default: 72
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Disable Underwear
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 72
+          m_Default: 72
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 45
+        m_RequiredItems:
+        - m_Name: Leather
+          m_Amount: 18
+      m_Purchase:
+        m_Price: 15
+        m_Amount: 1
+    - m_Name: Wooden Leggings
+      m_DisplayName: 
+      m_Id: 48
+      m_Category: Legs Equipment
+      m_Icon: {fileID: 21300000, guid: c5f355d0d37606841b57a9b4a806e042, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A stiff wooden leg protection.
+      - 'Defense: <color=olive>+{0}</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Defense
+        m_Type: 2
+        m_Bool: 0
+        m_Int:
+          m_Current: 8
+          m_Default: 8
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 14
+          m_Max: 16
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 64
+          m_Default: 64
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Disable Underwear
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 50
+        m_RequiredItems:
+        - m_Name: Plank
+          m_Amount: 18
+        - m_Name: Cloth
+          m_Amount: 12
+      m_Purchase:
+        m_Price: 7
+        m_Amount: 1
+  - m_Name: Feet Equipment
+    m_Items:
+    - m_Name: Leather Boots
+      m_DisplayName: 
+      m_Id: 49
+      m_Category: Feet Equipment
+      m_Icon: {fileID: 21300000, guid: 6add150cb6865d3499f1d86ac3ed2120, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - Basic feet protection.
+      - 'Defense: <color=olive>+{0}</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Defense
+        m_Type: 2
+        m_Bool: 0
+        m_Int:
+          m_Current: 8
+          m_Default: 8
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 8
+          m_Max: 10
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 96
+          m_Default: 96
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 72
+          m_Default: 72
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 26
+        m_RequiredItems:
+        - m_Name: Leather
+          m_Amount: 8
+      m_Purchase:
+        m_Price: 6
+        m_Amount: 1
+    - m_Name: Wooden Sandals
+      m_DisplayName: 
+      m_Id: 50
+      m_Category: Feet Equipment
+      m_Icon: {fileID: 21300000, guid: 0348b06574152e74f9c471c3aca69750, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - A stiff wooden feet protection.
+      - 'Defense: <color=olive>+{0}</color>'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Defense
+        m_Type: 2
+        m_Bool: 0
+        m_Int:
+          m_Current: 5
+          m_Default: 5
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 10
+          m_Max: 12
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Durability
+        m_Type: 5
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 64
+          m_Default: 64
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      - m_Name: Can Dismantle
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 12
+          m_Max: 15
+        m_Float:
+          m_Current: 128
+          m_Default: 128
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 30
+        m_RequiredItems:
+        - m_Name: Plank
+          m_Amount: 16
+        - m_Name: Cloth
+          m_Amount: 8
+      m_Purchase:
+        m_Price: 4
+        m_Amount: 1
+  - m_Name: Other
+    m_Items:
+    - m_Name: Building Plan
+      m_DisplayName: 
+      m_Id: 51
+      m_Category: Other
+      m_Icon: {fileID: 21300000, guid: b1140177f807f804baba957539e0da11, type: 2}
+      m_WorldObject: {fileID: 1924587810108364, guid: 3cf46591703ac534593142497b142c1f,
+        type: 3}
+      m_Descriptions:
+      - 'Carry this in your hands,
+
+        and you can start building.'
+      m_StackSize: 1
+      m_PropertyValues:
+      - m_Name: Allows Building
+        m_Type: 0
+        m_Bool: 0
+        m_Int:
+          m_Current: 0
+          m_Default: 0
+        m_IntRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomInt:
+          m_Min: 0
+          m_Max: 0
+        m_Float:
+          m_Current: 0
+          m_Default: 0
+        m_FloatRange:
+          m_Current: 0
+          m_Min: 0
+          m_Max: 0
+        m_RandomFloat:
+          m_Min: 0
+          m_Max: 0
+        m_String: 
+        m_Sound: {fileID: 0}
+      m_IsBuildable: 0
+      m_IsCraftable: 1
+      m_Recipe:
+        m_Duration: 35
+        m_RequiredItems:
+        - m_Name: Leather
+          m_Amount: 6
+      m_Purchase:
+        m_Price: 5
+        m_Amount: 1
+  m_ItemProperties:
+  - m_Name: Health Change
+    m_Type: 4
+  - m_Name: Thirst Change
+    m_Type: 4
+  - m_Name: Hunger Change
+    m_Type: 4
+  - m_Name: Hunger Change
+    m_Type: 4
+  - m_Name: Defense
+    m_Type: 2
+  - m_Name: Durability
+    m_Type: 5
+  - m_Name: Ammo Type
+    m_Type: 8
+  - m_Name: Consume Sound
+    m_Type: 9
+  - m_Name: Fuel Time
+    m_Type: 5
+  - m_Name: Burn Time
+    m_Type: 5
+  - m_Name: Burn Result
+    m_Type: 8
+  - m_Name: Can Dismantle
+    m_Type: 0
+  - m_Name: Can Consume
+    m_Type: 0
+  - m_Name: Disable Underwear
+    m_Type: 0
+  - m_Name: Allows Building
+    m_Type: 0
+  - m_Name: Is Placeable
+    m_Type: 0

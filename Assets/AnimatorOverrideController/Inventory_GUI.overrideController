@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Inventory_GUI
+  m_Controller: {fileID: 9100000, guid: 2e3e76db91c040a43a513196b8096750, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 23587d57bfaf28d49b8ea36932da2d36, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5bb1c9b0cca5e394d9c223fdb7dfdd1e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9b7f2bd3b4dc91644851fc15917f36fd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2329355a0d1acc34ab06ae3800c95041, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f688a980428038c49b1a641105ba802a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f688a980428038c49b1a641105ba802a, type: 2}

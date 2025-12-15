@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snowball
+  m_Controller: {fileID: 9100000, guid: 56518f70b0c096b42b10d557270998fd, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e482ac29b29f7164e9d598e060bfc393, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cd4314f75f0b5c246a39016c824bc919, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: efe8395e158a4e745a758c74f1a9542c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cae5d9c9251bb3c4db92ba30940d5ac5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ac7b0992775c53e4788f5075907542b2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f21627683a54ffb48b72807530f434b4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8910354ae22dcff479ea537f68abd706, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 66ddf130af0794f47849d4c2ae1d258e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3769cd45ead225b49a5a59d41e01355c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 141aa5a219a4da642a4673aa999e29ff, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2e9b07c585306f741b820fa2813dca5e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a91c06582e5ad494f8d1fde8fa7addd0, type: 2}

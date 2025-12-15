@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Wooden Spear
+  m_Controller: {fileID: 9100000, guid: a27b5791ce0871b45bf4859978a5106c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: aaf0a4bf336c03745a593ca37b4765aa, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2e565f9aa0a60e042a9f8e4abc653969, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 73bcf92c151240b418eab9535124d966, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4edf6f4ab5fb87043a14e513a8795452, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8e992453c0f890b47afcd5c83917c8ed, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 00adf336ad465a74392e79a647165648, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cedea9df8ce09f14cb7ef17e6f0e6ba2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b34d15785e5f96d40bf9d7c7d6f36eaa, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d90d3c87bbc0c7c42a6d2a835869ab34, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b51ac715824119449aaca2844f2a731b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 338df959dab7cd14d9f95df1d78cf8bc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c12055e11d6301c49b5b4bd68471a6ca, type: 2}
