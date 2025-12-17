@@ -1133,7 +1133,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &89
 GameObject:
   m_ObjectHideFlags: 0
@@ -1416,7 +1416,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &117
 GameObject:
   m_ObjectHideFlags: 0
@@ -9648,7 +9648,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: f8596a88e27cd414997e026680dd5363, type: 2}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -13323,7 +13323,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -426}
+  m_AnchoredPosition: {x: 50, y: -475.04977}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1266
@@ -13624,7 +13624,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -138}
+  m_AnchoredPosition: {x: 0, y: -236.09955}
   m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1286
@@ -13778,7 +13778,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -331}
+  m_AnchoredPosition: {x: 50, y: -380.04977}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1297
@@ -13879,7 +13879,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -426}
+  m_AnchoredPosition: {x: 50, y: -475.04977}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1302
@@ -14754,7 +14754,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -399}
+  m_AnchoredPosition: {x: 50, y: -448.04977}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1369
@@ -15415,7 +15415,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -358}
+  m_AnchoredPosition: {x: 50, y: -407.04977}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1406
@@ -15455,7 +15455,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -232}
+  m_AnchoredPosition: {x: 0, y: -330.09955}
   m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1410
@@ -15697,7 +15697,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -562}
+  m_AnchoredPosition: {x: 50, y: -611.0498}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1424
@@ -15977,7 +15977,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: TOP 100
+  m_Text: "\u0422\u041E\u041F 100"
 --- !u!224 &1443
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16093,7 +16093,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -290}
+  m_AnchoredPosition: {x: 50, y: -339.04977}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1450
@@ -16308,7 +16308,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: BUY PRIME
+  m_Text: "\u041A\u0423\u041F\u0418\u0422\u042C \u041F\u0420\u0410\u0419\u041C \u0421\u0418\u041C\u041F\u041B\u0410"
 --- !u!224 &1461
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16480,7 +16480,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 129, y: -296}
+  m_AnchoredPosition: {x: 129, y: -345.04977}
   m_SizeDelta: {x: 242, y: 64}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &1474
@@ -17031,7 +17031,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -494}
+  m_AnchoredPosition: {x: 50, y: -543.0498}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1512
@@ -17115,7 +17115,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -617}
+  m_AnchoredPosition: {x: 50, y: -666.0498}
   m_SizeDelta: {x: 688, y: 114}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1516
@@ -17712,7 +17712,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Axeman
+  m_Text: "\u041B\u0435\u0441\u043E\u0440\u0443\u0431\u044B"
 --- !u!224 &1553
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18031,7 +18031,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -608}
+  m_AnchoredPosition: {x: 0, y: -706.09955}
   m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1576
@@ -18090,7 +18090,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 32.5, y: -15}
-  m_SizeDelta: {x: 8, y: 25}
+  m_SizeDelta: {x: 8.687782, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1580
 RectTransform:
@@ -18478,7 +18478,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -358}
+  m_AnchoredPosition: {x: 50, y: -407.04977}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1610
@@ -18499,7 +18499,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -499}
+  m_AnchoredPosition: {x: 50, y: -548.0498}
   m_SizeDelta: {x: 688, y: 96}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1611
@@ -18816,7 +18816,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 80, y: -624}
+  m_AnchoredPosition: {x: 80, y: -722.09955}
   m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &1631
@@ -18998,7 +18998,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 129, y: -232}
+  m_AnchoredPosition: {x: 129, y: -281.04977}
   m_SizeDelta: {x: 242, y: 64}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &1640
@@ -19018,7 +19018,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -514}
+  m_AnchoredPosition: {x: 0, y: -612.09955}
   m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1642
@@ -19237,7 +19237,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -426}
+  m_AnchoredPosition: {x: 50, y: -475.04977}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1655
@@ -19339,7 +19339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -263}
+  m_AnchoredPosition: {x: 50, y: -312.04977}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1662
@@ -19442,7 +19442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 129, y: -424}
+  m_AnchoredPosition: {x: 129, y: -473.04977}
   m_SizeDelta: {x: 242, y: 64}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &1673
@@ -19619,7 +19619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -420}
+  m_AnchoredPosition: {x: 0, y: -518.09955}
   m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1686
@@ -19856,7 +19856,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Miner
+  m_Text: "\u0428\u0430\u0445\u0442\u0435\u0440\u044B"
 --- !u!224 &1704
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19914,7 +19914,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -326}
+  m_AnchoredPosition: {x: 0, y: -424.09955}
   m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1707
@@ -20294,7 +20294,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 129, y: -360}
+  m_AnchoredPosition: {x: 129, y: -409.04977}
   m_SizeDelta: {x: 242, y: 64}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &1737
@@ -20807,7 +20807,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Best Players
+  m_Text: "\u041B\u0443\u0447\u0448\u0438\u0435 \u0438\u0433\u0440\u043E\u043A\u0438"
 --- !u!224 &1777
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22567,7 +22567,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CHANGE LANGUAGE
+  m_Text: "\u0421\u041C\u0415\u041D\u0418\u0422\u042C \u042F\u0417\u042B\u041A"
 --- !u!114 &1883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22681,7 +22681,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CONTROL BUTTONS
+  m_Text: "\u041A\u041D\u041E\u041F\u041A\u0418 \u0423\u041F\u0420\u0410\u0412\u041B\u0415\u041D\u0418\u042F"
 --- !u!114 &1893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23981,7 +23981,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: FPS COUNTER
+  m_Text: "\u0421\u0427\u0415\u0422\u0427\u0418\u041A \u0424\u041F\u0421"
 --- !u!114 &1946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24224,7 +24224,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: AMBIENT QUALITY
+  m_Text: "\u041A\u0410\u0427\u0415\u0421\u0422\u0412\u041E \u042D\u041C\u0411\u0418\u0415\u041D\u0422\u0410"
 --- !u!114 &1956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24724,7 +24724,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CONNECTION FAILED
+  m_Text: "\u041F\u041E\u0414\u041A\u041B\u042E\u0427\u0415\u041D\u0418\u0415 \u041D\u0415
+    \u041F\u041E\u041B\u0423\u0427\u0418\u041B\u041E\u0421\u042C"
 --- !u!114 &1986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25750,7 +25751,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SHOW PLAYERS ID
+  m_Text: "\u041F\u041E\u041A\u0410\u0417\u042B\u0412\u0410\u0422\u042C ID \u0418\u0413\u0420\u041E\u041A\u041E\u0412"
 --- !u!114 &2056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26938,7 +26939,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: CONTROLS
+  m_Text: "\u0423\u041F\u0420\u0410\u0412\u041B\u0415\u041D\u0418\u0415"
 --- !u!114 &2109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27138,7 +27139,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SENSITIVITY
+  m_Text: "\u0427\u0423\u0412\u0421\u0422\u0412\u0418\u0422\u0415\u041B\u042C\u041D\u041E\u0421\u0422\u042C"
 --- !u!114 &2116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27850,7 +27851,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GRASS
+  m_Text: "\u0422\u0420\u0410\u0412\u0410"
 --- !u!114 &2141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28447,7 +28448,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CONNECTION FAILED
+  m_Text: "\u041F\u041E\u0414\u041A\u041B\u042E\u0427\u0415\u041D\u0418\u0415 \u041D\u0415
+    \u0423\u0414\u0410\u041B\u041E\u0421\u042C"
 --- !u!114 &2181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28606,7 +28608,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: afa1fd610dad04748802cc6b46e0deed, type: 3}
-    m_FontSize: 20
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -28617,7 +28619,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DRAW DISTANCE
+  m_Text: "\u0414\u0410\u041B\u042C\u041D\u041E\u0421\u0422\u042C \u041F\u0420\u041E\u0420\u0418\u0421\u041E\u0412\u041A\u0418"
 --- !u!114 &2187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29020,7 +29022,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: OPTIONS
+  m_Text: "\u041D\u0410\u0421\u0422\u0420\u041E\u0419\u041A\u0418"
 --- !u!114 &2218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29084,7 +29086,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: GRAPHICS
+  m_Text: "\u0413\u0420\u0410\u0424\u0418\u041A\u0410"
 --- !u!114 &2221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30250,7 +30252,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BLUR BACKGROUND
+  m_Text: "\u0411\u041B\u042E\u0420 \u0418\u041D\u0412\u0415\u041D\u0422\u0410\u0420\u042F"
 --- !u!114 &2288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30487,7 +30489,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: AUDIO
+  m_Text: "\u0417\u0412\u0423\u041A"
 --- !u!114 &2302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30551,9 +30553,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.9
-  m_Text: '1 servers
-
-    0 players'
+  m_Text: "1 \u0441\u0435\u0440\u0432\u0435\u0440\n0 \u0438\u0433\u0440\u043E\u043A\u043E\u0432"
 --- !u!114 &2306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30944,7 +30944,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NO SERVERS FOUND
+  m_Text: "\u0421\u0415\u0420\u0412\u0415\u0420\u0410 \u041D\u0415 \u041D\u0410\u0419\u0414\u0415\u041D\u042B"
 --- !u!114 &2330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31355,7 +31355,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: EDIT
+  m_Text: "\u0418\u0417\u041C\u0415\u041D\u0418\u0422\u042C"
 --- !u!114 &2350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32294,7 +32294,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CHANGE NICKNAME
+  m_Text: "\u0421\u041C\u0415\u041D\u0418\u0422\u042C \u041D\u0418\u041A\u041D\u0415\u0419\u041C"
 --- !u!114 &2396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32822,7 +32822,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MASTER VOLUME
+  m_Text: "\u0413\u0420\u041E\u041C\u041A\u041E\u0421\u0422\u042C"
 --- !u!114 &2435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34913,7 +34913,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: afa1fd610dad04748802cc6b46e0deed, type: 3}
-    m_FontSize: 20
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -34924,7 +34924,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: AMBIENT SOUNDS
+  m_Text: "\u0413\u0420\u041E\u041C\u041A\u041E\u0421\u0422\u042C \u042D\u041C\u0411\u0418\u0415\u041D\u0422\u0410"
 --- !u!114 &2505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35127,7 +35127,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: COMPASS
+  m_Text: "\u041A\u041E\u041C\u041F\u0410\u0421"
 --- !u!114 &2518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35668,7 +35668,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NO PLAYERS FOUND
+  m_Text: "\u0418\u0413\u0420\u041E\u041A\u0418 \u041D\u0415 \u041D\u0410\u0419\u0414\u0415\u041D\u042B"
 --- !u!114 &2552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41787,7 +41787,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -358}
+  m_AnchoredPosition: {x: 50, y: -407.04977}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &52880321
@@ -42237,7 +42237,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: BUY COINS
+  m_Text: "\u041A\u0423\u041F\u0418\u0422\u042C \u041C\u041E\u041D\u0415\u0422\u042B"
 --- !u!1 &145543197
 GameObject:
   m_ObjectHideFlags: 0
@@ -43070,7 +43070,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2X ONLY
+  m_Text: "\u0422\u041E\u041B\u042C\u041A\u041E 2X"
 --- !u!1 &264704974
 GameObject:
   m_ObjectHideFlags: 0
@@ -43617,7 +43617,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Favourites
+  m_Text: "\u041B\u044E\u0431\u0438\u043C\u044B\u0435"
 --- !u!1 &302144430
 GameObject:
   m_ObjectHideFlags: 0
@@ -44227,7 +44227,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: players
+  m_Text: "\u0438\u0433\u0440\u043E\u043A\u0438"
 --- !u!1 &373589327
 GameObject:
   m_ObjectHideFlags: 0
@@ -45235,7 +45235,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: ITEM STORE
+  m_Text: "\u041C\u0410\u0413\u0410\u0417\u0418\u041D \u041F\u0420\u0415\u0414\u041C\u0415\u0422\u041E\u0412"
 --- !u!1 &486232790
 GameObject:
   m_ObjectHideFlags: 0
@@ -49775,7 +49775,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ping
+  m_Text: "\u043F\u0438\u043D\u0433"
 --- !u!1 &1188615658
 GameObject:
   m_ObjectHideFlags: 0
@@ -50694,7 +50694,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Search Servers..
+  m_Text: "\u0427\u0442\u043E-\u0442\u043E..."
 --- !u!222 &1217845098
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -51315,7 +51315,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Purchased items appear in the crafting menu for an unlimited period
+  m_Text: "\u041A\u0443\u043F\u043B\u0435\u043D\u043D\u044B\u0435 \u0432\u0435\u0449\u0438
+    \u0438\u0437 \u043C\u0435\u043D\u044E \u043A\u0440\u0430\u0444\u0442\u0430 \u043E\u0441\u0442\u0430\u044E\u0442\u0441\u044F
+    \u043D\u0430 \u0431\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u044B\u0439
+    \u0441\u0440\u043E\u043A"
 --- !u!1 &1342139761
 GameObject:
   m_ObjectHideFlags: 0
@@ -51950,7 +51953,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: History
+  m_Text: "\u0418\u0441\u0442\u043E\u0440\u0438\u044F"
 --- !u!1 &1392503010
 GameObject:
   m_ObjectHideFlags: 0
@@ -52301,7 +52304,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Friends
+  m_Text: "\u0414\u0440\u0443\u0437\u044C\u044F"
 --- !u!1 &1440144115
 GameObject:
   m_ObjectHideFlags: 0
@@ -52553,7 +52556,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: server name
+  m_Text: "\u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F \u0441\u0435\u0440\u0432\u0435\u0440\u043E\u0432"
 --- !u!1 &1548926581
 GameObject:
   m_ObjectHideFlags: 0
@@ -52708,7 +52711,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -25, y: 25}
-  m_SizeDelta: {x: 172, y: 48}
+  m_SizeDelta: {x: 170.0885, y: 48}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1581562438
 MonoBehaviour:
@@ -53207,7 +53210,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: REFRESH
+  m_Text: "\u041E\u0411\u041D\u041E\u0412\u0418\u0422\u042C"
 --- !u!114 &1690125058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53320,7 +53323,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PRIME ONLY
+  m_Text: "\u041F\u0420\u0410\u0419\u041C \u0421\u0418\u041C\u041F\u041B\u0410"
 --- !u!1 &1740737798
 GameObject:
   m_ObjectHideFlags: 0
@@ -53752,7 +53755,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -222}
+  m_AnchoredPosition: {x: 50, y: -271.04977}
   m_SizeDelta: {x: 688, y: 64}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1826150701
@@ -53808,7 +53811,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: QUALITY
+  m_Text: "\u041A\u0410\u0427\u0415\u0421\u0422\u0412\u041E \u0413\u0420\u0410\u0424\u0418\u041A\u0418"
 --- !u!222 &1826150703
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -54121,8 +54124,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 86, y: -24}
-  m_SizeDelta: {x: 72, y: 48}
+  m_AnchoredPosition: {x: 85.04425, y: -24}
+  m_SizeDelta: {x: 70.08849, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1864763966
 MonoBehaviour:
@@ -55032,7 +55035,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Servers
+  m_Text: "\u0421\u0435\u0440\u0432\u0435\u0440\u0430"
 --- !u!1 &1982903705
 GameObject:
   m_ObjectHideFlags: 0
@@ -55265,7 +55268,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: RESTORE PURCHASES
+  m_Text: "\u0412\u0415\u0420\u041D\u0423\u0422\u042C \u041F\u041E\u041A\u0423\u041F\u041A\u0418"
 --- !u!1 &1998418626
 GameObject:
   m_ObjectHideFlags: 0
